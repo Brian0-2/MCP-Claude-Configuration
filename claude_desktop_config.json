@@ -18,8 +18,14 @@
         "MYSQL_PASS": "12345678",
         "MYSQL_DB": "pruebas",
         "ALLOW_INSERT_OPERATION": "true",
-        "ALLOW_UPDATE_OPERATION": "true",
+        "ALLOW_UPDATE_OPERATION": "true", 
         "ALLOW_DELETE_OPERATION": "true",
+        "ALLOW_DDL_OPERATION": "true",
+        "SCHEMA_INSERT_PERMISSIONS" : "true",
+        "SCHEMA_UPDATE_PERMISSIONS" : "true",
+        "SCHEMA_DELETE_PERMISSIONS" : "true",
+        "SCHEMA_DDL_PERMISSIONS" : "true",
+        "MULTI_DB_WRITE_MODE" : "true",
         "PATH": "C:\\Program Files\\nodejs;C:\\Windows\\System32;C:\\Windows",
         "NODE_PATH": "C:\\Users\\ingbv\\.node_modules"
       }
